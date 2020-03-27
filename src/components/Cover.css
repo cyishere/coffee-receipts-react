@@ -1,0 +1,21 @@
+.cover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover-content {
+  width: 240px;
+  height: 336px;
+  margin: auto;
+  text-indent: -9999px;
+  background-image: url(../assets/cover-front.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.cover-content:hover {
+  background-image: url(../assets/cover-back.png);
+}
+.cover-content > * {
+  margin: 0;
+}

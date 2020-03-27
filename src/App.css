@@ -1,0 +1,12 @@
+@import-normalize;
+
+.section {
+  width: 100%;
+  height: 100vh;
+}
+.cover {
+  background-color: #e1e1e1;
+}
+.intro {
+  background-color: #fff;
+}

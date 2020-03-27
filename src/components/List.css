@@ -1,0 +1,49 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.wrapper {
+  background-color: #fff;
+  width: 100%;
+}
+.masonry {
+  margin: 1.5em auto;
+  max-width: 1200px;
+  column-gap: 0;
+}
+.item {
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+.item img {
+  max-width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+.item .front {
+  display: none;
+}
+.item .back {
+  display: block;
+}
+.item:hover img.front {
+  display: block;
+}
+.item:hover img.back {
+  display: none;
+}
