@@ -1,3 +1,4 @@
+[Prototype](https://readymag.com/odding/1801596/)
 [The List](http://coffee.odding.rocks/)
 
 ## Cover
@@ -5,7 +6,7 @@
 - title: COFFEE RECEIPT STORIES
 - description: A journey of little adventures in everyday life.
 
-## Intro 
+## Intro
 
 It was a Christmas Eve, one of those days that I felt neither inspired nor motivated, just lost in the miserable feeling of self-doubt. :(
 
