@@ -23,7 +23,7 @@ const Intro = () => {
           100 stories in 100 different coffee places all over Tokyo and then
           stop.
         </p>
-        <p>Then the day came but I din't stop. :)</p>
+        <p>Then the day came but I didn't stop. :)</p>
         <p>by Odding</p>
       </div>
       <ArrowDown />

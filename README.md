@@ -14,6 +14,6 @@ Sitting in a nearby cafe, I saw a person writing something at the back of the re
 
 So I took out my pen and drew **a little story** at the back of my receipt, thinking that maybe one day I'd be able to finish 100 stories in 100 different coffee places all over Tokyo and then stop.
 
-Then the day came but I din't stop. :)
+Then the day came but I didn't stop. :)
 
 by Odding
