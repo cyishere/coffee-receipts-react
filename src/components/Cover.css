@@ -12,6 +12,7 @@
   background-image: url(../assets/cover-front.png);
   background-position: center center;
   background-repeat: no-repeat;
+  transition: .1s;
 }
 .cover-content:hover {
   background-image: url(../assets/cover-back.png);
