@@ -1,0 +1,27 @@
+.overlay {
+  width: 100%;
+  height: 0%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #e1e1e1;
+  z-index: 1000;
+  overflow: hidden;
+  text-align: center;
+  transition: .5s;
+}
+.overlay .close-btn {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 35px;
+  height: 35px;
+  transition: transform .2s;
+}
+.close-btn:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+.overlay img {
+  max-width: 80%;
+}

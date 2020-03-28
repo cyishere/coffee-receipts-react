@@ -3,6 +3,14 @@
 body {
   margin: 0;
 }
+body.modal-open {
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
 
 .section {
   width: 100%;

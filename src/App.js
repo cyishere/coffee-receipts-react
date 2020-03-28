@@ -3,6 +3,7 @@ import { receipts } from "./data/receipts";
 import Cover from "./components/Cover";
 import Intro from "./components/Intro";
 import List from "./components/List";
+import Nav from "./components/Nav";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Cover />
         <Intro />
         <List receipts={receipts} />
+        <Nav />
       </div>
     </div>
   );
