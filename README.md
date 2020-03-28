@@ -1,5 +1,5 @@
-[Prototype](https://readymag.com/odding/1801596/)
-[The List](http://coffee.odding.rocks/)
+- [Prototype](https://readymag.com/odding/1801596/)
+- [The List in The Prototype](http://coffee.odding.rocks/)
 
 ## Cover
 
