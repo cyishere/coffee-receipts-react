@@ -9,13 +9,14 @@
   height: 336px;
   margin: auto;
   text-indent: -9999px;
-  background-image: url(../assets/cover-front.png);
-  background-position: center center;
+  background-image: url(../assets/cover.png);
+  background-position: 8px 10px;
   background-repeat: no-repeat;
-  transition: .1s;
+  transition: .2s;
 }
 .cover-content:hover {
-  background-image: url(../assets/cover-back.png);
+  /* background-image: url(../assets/cover-back.png); */
+  background-position: -268px 10px;
 }
 .cover-content > * {
   margin: 0;

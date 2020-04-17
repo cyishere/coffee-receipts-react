@@ -7,6 +7,7 @@ const ReceiptImg = props => {
   
   return (
     <div className="item" id={`item${index + 1}`}>
+      <span className="img-no">{`item${index + 1}`}, {receipt.id}</span>
       <img className="back" src={imgSrcBack} alt={receipt.id} />
       <img className="front" src={imgSrcFront} alt={receipt.id} />
     </div>
