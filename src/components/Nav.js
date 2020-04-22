@@ -1,7 +1,7 @@
 import React from "react";
 import closeIcon from "../assets/close-icon.png";
-import menuFullPage from "../assets/menu-full-page.png";
-import "./Nav.css";
+import MapModal from "./MapModal";
+import "./Nav.scss";
 
 const Nav = () => {
   const closeNav = () => {
@@ -9,12 +9,12 @@ const Nav = () => {
     document.getElementsByTagName("body")[0].classList.remove("modal-open");
   };
   return (
-    <div id="theNav" className="overlay">
+    <div id="theNav" className="map-modal overlay">
       <span className="close-btn" onClick={closeNav}>
         <img src={closeIcon} alt="Close" />
       </span>
 
-      <img src={menuFullPage} alt="Menu" />
+      <MapModal />
     </div>
   );
 };

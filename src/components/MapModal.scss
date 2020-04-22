@@ -1,0 +1,246 @@
+.map-modal {
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 792px 1fr;
+    position: relative;
+    background: transparent;
+  }
+
+  .by-location {
+    h3 {
+      position: absolute;
+      left: 41px;
+      top: 8px;
+      width: 135px;
+      height: 38px;
+      text-indent: -9999px;
+      background: url(../assets/by_location_1x.png) 0 0 no-repeat;
+      z-index: 100;
+    }
+
+    .location {
+      position: absolute;
+      cursor: pointer;
+
+      img:hover {
+        margin-top: -6px;
+      }
+    }
+
+    .the-world {
+      position: absolute;
+      top: 148px;
+      left: 18px;
+      width: 600px;
+      height: 393px;
+      background: url(../assets/world_map_1x.png) 0 0 no-repeat;
+      z-index: 110;
+
+      .location {
+
+        &.canada {
+          left: 104px;
+          top: 158px;
+        }
+        &.cuba {
+          left: 138px;
+          top: 200px;
+        }
+        &.colombia {
+          left: 120px;
+          top: 248px;
+        }
+        &.morocco {
+          left: 225px;
+          top: 195px;
+        }
+        &.uae {
+          left: 332px;
+          top: 200px;
+        }
+        &.china {
+          left: 410px;
+          top: 175px;
+        }
+        &.laos {
+          left: 416px;
+          top: 226px;
+        }
+        &.japan {
+          left: 479px;
+          top: 170px;
+        }
+        &.cambodia {
+          left: 471px;
+          top: 253px;
+        }
+      }
+    }
+
+    .the-japan {
+      position: absolute;
+      left: 262px;
+      top: 22px;
+      width: 300px;
+      height: 299px;
+      background: url(../assets/japan_map_1x.png) 0 0 no-repeat;
+      z-index: 200;
+
+      .location {
+        &.akita {
+          left: 134px;
+          top: 50px;
+        }
+        &.niigata {
+          left: 127px;
+          top: 78px;
+        }
+        &.nagano {
+          left: 72px;
+          top: 124px;
+        }
+        &.aichi {
+          left: 119px;
+          top: 173px;
+        }
+        &.saitama {
+          left: 119px;
+          top: 102px;
+        }
+        &.aomori {
+          left: 195px;
+          top: 75px;
+        }
+        &.miyagi {
+          left: 199px;
+          top: 102px;
+        }
+        &.tochigi {
+          left: 185px;
+          top: 130px;
+        }
+        &.tokyo {
+          left: 185px;
+          top: 162px;
+        }
+        &.okinawa {
+          left: 82px;
+          top: 240px;
+        }
+      }
+    }
+  }
+}
+
+.by-keyword {
+  // padding-left: 50px;
+  padding-top: 22px;
+
+  h3 {
+    width: 140px;
+    height: 37px;
+    text-indent: -9999px;
+    background: url(../assets/by_keywords_1x.png) 0 0 no-repeat;
+  }
+
+  .keyword-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .keyword {
+      background-position: center center;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      margin-bottom: 10px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.dreams {
+        width: 187px;
+        height: 63px;
+        background-image: url(../assets/keywords/Tag_Dreams_unselected_1x.png);
+
+        &:hover {
+          background-image: url(../assets/keywords/Tag_Dreams_selected_1x.png);
+        }
+      }
+      &.coffee {
+        width: 181px;
+        height: 62px;
+        background-image: url(../assets/keywords/Tag_Coffee_unselected_1x.png);
+
+        &:hover {
+          background-image: url(../assets/keywords/Tag_Coffee_selected_1x.png);
+        }
+      }
+      &.travel {
+        width: 187px;
+        height: 64px;
+        background-image: url(../assets/keywords/Tag_Travel_unselected_1x.png);
+
+        &:hover {
+          background-image: url(../assets/keywords/Tag_Travel_selected_1x.png);
+        }
+      }
+      &.readings {
+        width: 214px;
+        height: 66px;
+        background-image: url(../assets/keywords/Tag_Readings_unselected_1x.png);
+
+        &:hover {
+          background-image: url(../assets/keywords/Tag_Readings_selected_1x.png);
+        }
+      }
+      &.others-stories {
+        width: 294px;
+        height: 69px;
+        background-image: url(../assets/keywords/Tag_Others_Stories_unselected_1x.png);
+
+        &:hover {
+          background-image: url(../assets/keywords/Tag_Others_Stories_selected_1x.png);
+        }
+      }
+      &.life-in-japan {
+        width: 313px;
+        height: 71px;
+        background-image: url(../assets/keywords/Tag_Life_in_Japan_unselected_1x.png);
+
+        &:hover {
+          background-image: url(../assets/keywords/Tag_Life_in_Japan_selected_1x.png);
+        }
+      }
+      &.infographic {
+        width: 269px;
+        height: 69px;
+        background-image: url(../assets/keywords/Tag_Infographic_unselected_1x.png);
+
+        &:hover {
+          background-image: url(../assets/keywords/Tag_Infographic_selected_1x.png);
+        }
+      }
+      &.fiction {
+        width: 197px;
+        height: 65px;
+        background-image: url(../assets/keywords/Tag_Fiction_unselected_1x.png);
+
+        &:hover {
+          background-image: url(../assets/keywords/Tag_Fiction_selected_1x.png);
+        }
+      }
+      &.everyday-life {
+        width: 313px;
+        height: 71px;
+        background-image: url(../assets/keywords/Tag_Everyday_life_unselected_1x.png);
+
+        &:hover {
+          background-image: url(../assets/keywords/Tag_Everyday_life_selected_1x.png);
+        }
+      }
+    }
+  }
+}

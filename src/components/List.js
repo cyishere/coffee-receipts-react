@@ -1,6 +1,6 @@
 import React from "react";
 import ReceiptImg from "./ReceiptImg";
-import "./List.css";
+import "./List.scss";
 
 const List = props => {
   const { receipts } = props;

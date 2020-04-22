@@ -1,6 +1,6 @@
 import React from "react";
 import menuIcon from "../assets/menu-icon.png";
-import "./NavMenu.css";
+import "./NavMenu.scss";
 
 const NavMenu = () => {
   const openNav = () => {

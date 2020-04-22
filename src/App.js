@@ -4,7 +4,7 @@ import Cover from "./components/Cover";
 import Intro from "./components/Intro";
 import List from "./components/List";
 import Nav from "./components/Nav";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (

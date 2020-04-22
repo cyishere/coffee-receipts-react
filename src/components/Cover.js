@@ -1,7 +1,7 @@
 import React from "react";
 import ArrowDown from "./ArrowDown";
 import NavMenu from "./NavMenu";
-import "./Cover.css";
+import "./Cover.scss";
 
 const Cover = () => {
   return (

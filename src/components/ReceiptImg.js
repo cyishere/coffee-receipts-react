@@ -1,5 +1,7 @@
 import React from "react";
-const imagePath = process.env.PUBLIC_URL + "/images/";
+
+const imagePath = process.env.PUBLIC_URL + "/images/receipts/";
+
 const ReceiptImg = props => {
   const { receipt, index } = props;
   const imgSrcFront = `${imagePath}${receipt.id}-front.jpg`;
