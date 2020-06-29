@@ -1,21 +1,23 @@
 import React from "react";
-import { receipts } from "./data/receipts";
-import Cover from "./components/Cover";
-import Intro from "./components/Intro";
-import List from "./components/List";
-import Nav from "./components/Nav";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import DreamsPage from "./pages/DreamsPage";
 import "./App.scss";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <Cover />
-        <Intro />
-        <List receipts={receipts} />
-        <Nav />
-      </div>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/dreams" component={DreamsPage} />
+        <Redirect to="/" />
+      </Switch>
+    </Router>
   );
 }
 
