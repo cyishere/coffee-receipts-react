@@ -22,7 +22,7 @@ const DreamsPage = () => {
                   alt={imageProps.alt}
                 />
               )}
-              actual={({ imageProps }) => <img {...imageProps} />}
+              actual={({ imageProps }) => <img {...imageProps} alt={dream} />}
             />
           </div>
         ))}
