@@ -13,37 +13,50 @@
         max-width: 100%;
       }
 
-      &.cls-006_front,
-      &.cls-023_front,
-      &.cls-104_front {
+      .front {
+        display: none;
+      }
+
+      &:hover {
+        .front {
+          display: block;
+        }
+        .back {
+          display: none;
+        }
+      }
+
+      &.cls-006,
+      &.cls-023,
+      &.cls-104 {
         grid-row: 1 / 4;
       }
 
-      &.cls-043_front {
+      &.cls-043 {
         grid-row: 1 / 5;
       }
 
-      &.cls-122_front {
+      &.cls-122 {
         grid-row: 4 / 6;
         margin-top: -40px;
       }
 
-      &.cls-145_front {
+      &.cls-145 {
         grid-row: 4 / 8;
         margin-top: -60px;
       }
 
-      &.cls-135_front {
+      &.cls-135 {
         grid-row: 5 / 8;
         grid-column: 3 / 5;
         margin-top: -50px;
       }
 
-      &.cls-148_front {
+      &.cls-148 {
         grid-row: 6 / 9;
       }
 
-      &.cls-134_front {
+      &.cls-134 {
         grid-row: 8 / 10;
         grid-column: 3 / 5;
         margin-top: -210px;

@@ -219,13 +219,40 @@ export const receipts = [
 ];
 
 export const dreams = [
-  "006_front",
-  "023_front",
-  "043_front",
-  "104_front",
-  "122_front",
-  "145_front",
-  "135_front",
-  "148_front",
-  "134_front",
+  {
+    front: "006_front",
+    back: "006_back",
+  },
+  {
+    front: "023_front",
+    back: "023_back",
+  },
+  {
+    front: "043_front",
+    back: "043_back",
+  },
+  {
+    front: "104_front",
+    back: "104_back",
+  },
+  {
+    front: "122_front",
+    back: "122_back",
+  },
+  {
+    front: "145_front",
+    back: "145_back",
+  },
+  {
+    front: "135_front",
+    back: "135_back",
+  },
+  {
+    front: "148_front",
+    back: "148_back",
+  },
+  {
+    front: "134_front",
+    back: "134_back",
+  },
 ];
