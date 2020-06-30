@@ -5,8 +5,6 @@ import "./DreamsPage.scss";
 import { dreams } from "../data/receipts";
 
 const imagePath = process.env.PUBLIC_URL + "/images/receipts/dreams/";
-const placeholderImg =
-  process.env.PUBLIC_URL + "/images/receipts/dreams/placeholder.jpg";
 
 const DreamsPage = () => {
   return (
@@ -18,7 +16,11 @@ const DreamsPage = () => {
               src={`${imagePath}${dream}.jpg`}
               alt={dream}
               placeholder={({ imageProps, ref }) => (
-                <img ref={ref} src={placeholderImg} alt={imageProps.alt} />
+                <img
+                  ref={ref}
+                  src={`${imagePath}${dream}_low.jpg`}
+                  alt={imageProps.alt}
+                />
               )}
               actual={({ imageProps }) => <img {...imageProps} alt={dream} />}
             />
